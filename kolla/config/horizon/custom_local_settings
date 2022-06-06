@@ -1,7 +1,7 @@
 OPENSTACK_ENABLE_PASSWORD_RETRIEVE = True
 OPENSTACK_IMAGE_BACKEND = {
     'image_formats': [
-        ('raw', ('Raw')),
+        ('raw', 'Raw'),
     ],
 }
 
@@ -9,7 +9,7 @@ API_RESULT_PAGE_SIZE = 50
 
 HORIZON_CONFIG["password_validator"] = {
     "regex": '^(?=.*\d)(?=.*[a-zA-Z]).{16,}$',
-    "help_text": _("Invaild Password - Passwords must contain at least 1 letter, 1 digit, and be a minimum length of 16 characters."),
+    "help_text": "Invaild Password - Passwords must contain at least 1 letter, 1 digit, and be a minimum length of 16 characters.",
 }
 
 SITE_BRANDING = "RIT ESL Cyber Range: The Gibson"
